@@ -96,6 +96,10 @@ body{
     margin-right: 20%;
 }
 
+.resume-button{
+    margin-top: 3%;
+}
+
 #projects{
     padding-top: 5%;
     margin-top: 15%;
@@ -110,6 +114,10 @@ body{
 
 .carousel-item{
     height: 320px;
+}
+
+.carousel-item:hover{
+    background-color: grey;
 }
 
 #contact{
