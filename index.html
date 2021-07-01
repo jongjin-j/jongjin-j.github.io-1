@@ -28,16 +28,16 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">HOME</a>
+                    <a class="nav-link" href="#top">HOME</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT ME</a>
+                    <a class="nav-link" href="#about">ABOUT ME</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">PROJECTS</a>
+                    <a class="nav-link" href="#projects">PROJECTS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
+                    <a class="nav-link" href="#contact">CONTACT</a>
                   </li>
                 </ul>
               </div>
@@ -52,8 +52,8 @@
                     <p class="banner-title">
                         JONGJIN JUNG
                     </p>
-                    <p>
-                        I am a third year computer engineering student at University of Toronto.
+                    <p class="banner-sub">
+                        📍 Toronto / Boston
                     </p>
                 </div>
             </div>
@@ -63,18 +63,87 @@
     
    
     <section id="about">
-        <div class="container text-center">
-            <h1 class="about-title">ABOUT ME</h1>
+        <div>
+            <h1 class="title text-center">ABOUT ME</h1>
             <div class="about-row">
-                <div class="col-md-4">
-                    <h4>Blah Blah Blah </h4>
-                    <p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah </p>
+                <div class="about-info">
+                    <h4> Hello, </h4>
+                    <br>
+                    <p> I'm a third year computer engineering student at University of Toronto, pursuing a minor in Artificial Intelligence.
+                        Currently, I'm a Summer Research Student at Boston University LISP (Learning, Intelligence, and Signal Processing) Research Group.
+                        I am interested in fullstack web development and machine learning. 
+                    </p>
+                    <p> I'm a third year computer engineering student at University of Toronto, pursuing a minor in Artificial Intelligence.
+                      Currently, I'm a Summer Research Student at Boston University LISP (Learning, Intelligence, and Signal Processing) Research Group.
+                      I am interested in fullstack web development and machine learning. 
+                  </p>
                 </div>
             </div>
         </div>
     </section>
+
+
+    <section id="projects">
+        <h1 class="title text-center">PROJECTS</h1>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./images/US-Covid.png" class="d-block w-100" alt="project1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>US Covid-19</h5>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/AirHockey.png" class="d-block w-100" alt="project2">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Air Hockey</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/GoogleMaps.png" class="d-block w-100" alt="project3">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>GIS Mapper</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/hangman.png" class="d-block w-100" alt="project4">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Hangman</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
     
-   
+
+    <section id="contact">
+      <div>
+        <h1 class="title text-center">CONTACT</h1>
+        <div class="about-row">
+            <div class="about-info">
+                <h4> Hello, </h4>
+            </div>
+        </div>
+    </div>
+    </section>
+    
+
+    <svg class="footer-wave"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffff" fill-opacity="1" d="M0,256L48,229.3C96,203,192,149,288,138.7C384,128,480,160,576,149.3C672,139,768,85,864,101.3C960,117,1056,203,1152,224C1248,245,1344,203,1392,181.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <section id="footer"></section>
     
 </body>
 </html>
