@@ -7,6 +7,14 @@ body{
     font-family: sans-serif;
 }
 
+.navbar-brand{
+    margin-left: -0.5%;
+}
+
+.container-fluid img{
+    height: 30px;
+}
+
 #nav-bar{
     position: sticky;
     top: 0;
@@ -123,7 +131,7 @@ body{
 }
 
 .contact-socials ul li .fa {
-    color: #000000;
+    color: inherit;
     font-size: 25px;
     line-height: 50px;
 }
@@ -160,6 +168,7 @@ body{
 .contact-socials ul li:nth-child(5) a:hover {
     background-color: #1877F2;
 }
+
 
 #footer{
     background-image: linear-gradient(to right, #a2d9ff, #5f1782);
