@@ -224,6 +224,7 @@ body{
 
     .carousel{
         width: 80%;
+        margin-top: 10%;
     }
 
     .contact-socials ul{
@@ -231,16 +232,16 @@ body{
     }
 
     #about{
-        padding-top: 10%;
+        padding-top: 15%;
     }
 
     #projects{    
-        padding-top: 10%;
+        padding-top: 15%;
         margin-top: 15%;
     }
 
     #contact{
-        padding-top: 10%;
+        padding-top: 20%;
         margin-top: 40%;
     }
 }
