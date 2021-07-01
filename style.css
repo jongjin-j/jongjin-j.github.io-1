@@ -146,21 +146,20 @@ body{
     transform: rotate(0deg) skew(0deg) translate(0, -10px);
 }
 .contact-socials ul li:nth-child(1) a:hover {
-    background-color: #3b5999;
+    background-color: #BD081C;
 }
 .contact-socials ul li:nth-child(2) a:hover {
-    background-color: #55acee;
+    background-color: #B0BEC5;
 }
 .contact-socials ul li:nth-child(3) a:hover {
-    background-color: #e4405f;
+    background-color: #0A66C2;
 }
 .contact-socials ul li:nth-child(4) a:hover {
-    background-color: #cd201f;
+    background-color: #E4405F;
 }
 .contact-socials ul li:nth-child(5) a:hover {
-    background-color: #0077B5;
+    background-color: #1877F2;
 }
-
 
 #footer{
     background-image: linear-gradient(to right, #a2d9ff, #5f1782);
