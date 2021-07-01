@@ -80,7 +80,7 @@ body{
 
 .title::before{
     content: "";
-    background: #a2d9ff;
+    background: #8178c1;
     height: 5px;
     width: 200px;
     margin-left: auto;
@@ -106,19 +106,47 @@ body{
 }
 
 .carousel{
-    width:640px;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 5%;
 }
 
 .carousel-item{
-    height: 320px;
+    height: 100%;
 }
 
-.carousel-item:hover{
-    background-color: grey;
+.carousel-description{
+    font-size: large;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(129, 120, 193, 0.65);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity .2s, visibility .2s;
 }
+
+.carousel-item:hover .carousel-description {
+    visibility: visible;
+    opacity: 1;
+ }
+  
+.description-text {
+    transition: .2s;
+    transform: translateY(1em);
+}
+  
+.carousel-item:hover .description-text {
+    transform: translateY(0);
+}
+
 
 #contact{
     padding-top: 5%;
@@ -129,7 +157,7 @@ body{
     display: flex;
     justify-content: center; 
     margin-top: 6.4%;
-    margin-left: -1.5%;
+    margin-left: -1.8%;
 }
 
 .contact-socials li{
@@ -187,4 +215,32 @@ body{
 .footer-wave{
     margin-bottom: -23%;
     z-index: 1;
+}
+
+@media only screen and (max-width: 1000px) {
+    .about-row{
+        margin-top: 15%;
+    }
+
+    .carousel{
+        width: 80%;
+    }
+
+    .contact-socials ul{
+        margin-top: 10%;
+    }
+
+    #about{
+        padding-top: 10%;
+    }
+
+    #projects{    
+        padding-top: 10%;
+        margin-top: 15%;
+    }
+
+    #contact{
+        padding-top: 10%;
+        margin-top: 40%;
+    }
 }
